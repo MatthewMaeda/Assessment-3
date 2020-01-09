@@ -1,0 +1,34 @@
+
+
+/* class box for div'(s) */
+.box {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(53, 129, 243);
+    text-align: center;
+    display: inline-flex;
+
+}
+/* Allows you to pick which color you want to toggle, but the toggle happens withing js */
+.colorred {
+    background-color: lightcoral;
+}
+
+/* extra work changes the styles of buttons */
+button {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 50px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* extra work changes the styles of button when hovered */
+button:hover {
+   background-color: brown;
+   color: white;
+}
+
+
